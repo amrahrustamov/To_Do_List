@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    .mainBox {
+        height: 5000px;
+        width: 700px;
+        background-color: yellow;
+    
+        .textName {
+            height: 100px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+
+            h2 {
+                margin-top: 50px;
+            }
+        }
+
+        .inputAndAdd {
+            height: 50px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+
+            input {
+                height: 40px;
+                width: 400px;
+                border-radius: 10px;
+                border: none;
+            }
+            button {
+                height: 40px;
+                width: 80px;
+                border-radius: 10px;
+                border: none;
+            }
+        }
+        .list {
+            min-height: 500px;
+            width: 700px;
+            display: flex;
+            justify-content: center;
+            
+            ul {
+
+                
+                li {
+                    height: 40px;
+                    width: 600px;
+                    margin-bottom: 5px;
+                    list-style-type: none;
+                    
+                }
+            }
+            
+        }
+    }
+    
+}
