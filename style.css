@@ -3,9 +3,10 @@ body {
   justify-content: center;
 }
 body .mainBox {
-  height: 5000px;
+  min-height: 1000px;
   width: 700px;
-  background-color: yellow;
+  background-color: rgb(61, 60, 60);
+  border-radius: 3px;
 }
 body .mainBox .textName {
   height: 100px;
@@ -15,6 +16,7 @@ body .mainBox .textName {
 }
 body .mainBox .textName h2 {
   margin-top: 50px;
+  color: yellow;
 }
 body .mainBox .inputAndAdd {
   height: 50px;
@@ -33,6 +35,7 @@ body .mainBox .inputAndAdd button {
   width: 80px;
   border-radius: 10px;
   border: none;
+  margin-left: 5px;
 }
 body .mainBox .list {
   min-height: 500px;
@@ -45,4 +48,33 @@ body .mainBox .list ul li {
   width: 600px;
   margin-bottom: 5px;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+body .mainBox .list ul li p {
+  color: white;
+}
+body .mainBox .list ul li .newInput {
+  display: none;
+  height: 20px;
+  width: 200px;
+  border-radius: 3px;
+  border: none;
+  margin: 15px 0 0 5px;
+}
+body .mainBox .list ul li .edit {
+  border-radius: 3px;
+  background-color: greenyellow;
+  border: none;
+  height: 20px;
+  width: 40px;
+  margin: 15px 0 0 5px;
+}
+body .mainBox .list ul li .delete {
+  border-radius: 3px;
+  background-color: rgb(238, 101, 101);
+  border: none;
+  height: 20px;
+  min-width: 30px;
+  margin: 15px 0 0 5px;
 }/*# sourceMappingURL=style.css.map */

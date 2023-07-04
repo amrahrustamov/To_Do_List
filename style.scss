@@ -2,59 +2,81 @@ body {
     display: flex;
     justify-content: center;
     .mainBox {
-        height: 5000px;
+        min-height: 1000px;
         width: 700px;
-        background-color: yellow;
-    
+        background-color: rgb(61, 60, 60);
+        border-radius: 3px;  
         .textName {
             height: 100px;
             width: 700px;
             display: flex;
             justify-content: center;
-
             h2 {
                 margin-top: 50px;
+                color: yellow;             
             }
         }
-
         .inputAndAdd {
             height: 50px;
             width: 700px;
             display: flex;
             justify-content: center;
-
             input {
                 height: 40px;
                 width: 400px;
                 border-radius: 10px;
-                border: none;
+                border: none;            
             }
             button {
                 height: 40px;
                 width: 80px;
                 border-radius: 10px;
                 border: none;
+                margin-left: 5px;
             }
         }
         .list {
             min-height: 500px;
             width: 700px;
             display: flex;
-            justify-content: center;
-            
-            ul {
-
-                
+            justify-content: center;          
+            ul {             
                 li {
                     height: 40px;
                     width: 600px;
                     margin-bottom: 5px;
                     list-style-type: none;
-                    
+                    display: flex;
+                    flex-direction: row;
+                    p {
+                        color: white;
+                    }
+                    .newInput {
+                        display: none;
+                        height: 20px;
+                        width: 200px;
+                        border-radius: 3px;
+                        border: none;
+                        margin: 15px 0 0 5px;
+                    }
+                    .edit {
+                        border-radius: 3px;
+                        background-color: greenyellow;
+                        border: none;
+                        height: 20px;
+                        width: 40px;
+                        margin: 15px 0 0 5px;                       
+                    }
+                    .delete {
+                        border-radius: 3px;
+                        background-color: rgb(238, 101, 101);
+                        border: none;
+                        height: 20px;
+                        min-width: 30px;
+                        margin: 15px 0 0 5px;
+                    }                    
                 }
-            }
-            
+            }         
         }
-    }
-    
+    }  
 }
